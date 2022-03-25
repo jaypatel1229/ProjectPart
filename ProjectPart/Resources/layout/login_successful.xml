@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:minWidth="200dp"
+    android:background="@drawable/dialog_frag_backj"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:minWidth="200dp"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/closeImageView"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/successfully"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:text="Your leave request has been submitted successfully"
+            android:layout_below="@+id/gifImageView"
+            android:id="@+id/successTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

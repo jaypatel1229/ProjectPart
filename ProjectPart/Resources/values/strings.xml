@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProjectPart</string>
+    <string name="action_settings">Settings</string>
+
+	<string name="loginString">Login</string>
+
+
+	<string name="typeReason">Type Your Reason For Leave</string>
+	<string name="applyLeave">Apply Leave</string>
+	<string name="fullDay">Full Day</string>
+	<string name="firstHalf">1st Half Day</string>
+	<string name="secondHalf">2nd Half Day</string>
+
+	<string name="fromDate">From</string>
+	<string name="toDate">To</string>
+
+	<string name="leave">Leave</string>
+	<string name="workFromHome">WFH</string>
+</resources>
